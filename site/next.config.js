@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'gh0stnet',
     description: 'The official gh0stnet store for Kasm supported workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://misuchiru03.github.io/gh0stnet-registry/',
+    listUrl: 'https://www.gh0stnet.com/images/logo.svg',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
