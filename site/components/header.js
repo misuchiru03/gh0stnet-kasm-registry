@@ -2,6 +2,7 @@ import Bubbles from '../components/Bubbles'
 import Link from 'next/link'
 import { useRouter } from "next/router";
 import { NotificationManager } from 'react-notifications';
+import logo from '../public/logo.svg'
 
 export default function Header({ searchText, changeSearch }) {
 
@@ -17,12 +18,14 @@ export default function Header({ searchText, changeSearch }) {
   const listUrl = process.env.listUrl;
   const router = useRouter();
   const getLink = (path) => `${router.basePath}${path}`;
-
+ 
   return (
     <header className="relative font-light overflow-hidden bg-gradient-to-tr from-[#162d48] to-[#2980b9] p-8 xl:px-32 text-white gap-5 md:gap-0 flex flex-wrap justify-center items-center">
       <Bubbles />
       <div className='relative z-10'>
-        <div className="text-3xl">{process.env.name}</div>
+        <div className="text-3xl">
+        <img src={logo.src} alt="gh0stnet.com" className="h-10" />
+        </div>
         <div className="text-sm uppercase w-full flex justify-between">
           <span className='opacity-70'>W</span>
           <span className='opacity-70'>o</span>
