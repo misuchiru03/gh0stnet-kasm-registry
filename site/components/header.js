@@ -24,7 +24,7 @@ export default function Header({ searchText, changeSearch }) {
       <Bubbles />
       <div className='relative z-10'>
         <div className="text-3xl">
-        <img src={logo.src} alt="gh0stnet"
+        <img src={logo.src} alt="gh0stnet.com" className="h-10" />
         </div>
         <div className="text-sm uppercase w-full flex justify-between">
           <span className='opacity-70'>W</span>
