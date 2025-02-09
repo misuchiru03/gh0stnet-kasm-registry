@@ -63,7 +63,7 @@ export default function Home({ searchText }) {
       <Head>
         <title>gh0stnet Workspaces</title>
         <meta name="description" content="List of workspaces for Kasm Webspaces" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon.ico?" />
       </Head>
 
 
