@@ -1,6 +1,6 @@
 {
   "description": "GTK client for remote management of the Transmission BitTorrent client",
-  "docker_registry": "https://docker.io/misuchiru03/kasmweb",
+  "docker_registry": "https://docker.io/misuchiru03/kasmweb/",
   "image_src": "transmission.png",
   "run_config": {
     "hostname": "transmission"
