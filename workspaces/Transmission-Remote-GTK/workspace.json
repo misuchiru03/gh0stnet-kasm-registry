@@ -1,0 +1,25 @@
+{
+  "description": "GTK client for remote management of the Transmission BitTorrent client",
+  "docker_registry": "https://docker.io/misuchiru03/kasmweb",
+  "image_src": "transmission.png",
+  "run_config": {
+    "hostname": "transmission"
+  },
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "Transmission Remote GTK",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "misuchiru03/kasmweb:transmission-remote-gtk",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "transmission-remote-gtk"
+      ]
+    }
+  ]
+}
